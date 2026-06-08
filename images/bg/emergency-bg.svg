@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none">
+  <defs>
+    <linearGradient id="e1" x1="400" y1="200" x2="800" y2="600">
+      <stop stop-color="#1B4F72" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#5DADE2" stop-opacity="0.3"/>
+    </linearGradient>
+  </defs>
+  <!-- Elegant umbrella silhouette -->
+  <path d="M300 420C300 260 380 170 600 170C820 170 900 260 900 420" stroke="url(#e1)" stroke-width="4" stroke-linecap="round"/>
+  <!-- Umbrella top curves -->
+  <path d="M400 370C400 280 460 220 600 220C740 220 800 280 800 370" stroke="url(#e1)" stroke-width="2" stroke-dasharray="10 6"/>
+  <!-- Umbrella handle -->
+  <path d="M600 420L600 520" stroke="url(#e1)" stroke-width="5" stroke-linecap="round"/>
+  <path d="M600 520C600 550 570 560 540 550" stroke="url(#e1)" stroke-width="5" stroke-linecap="round"/>
+  <!-- Rain streaks at angle -->
+  <path d="M340 310l-20-40" stroke="#5DADE2" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.25"/>
+  <path d="M420 260l-15-30" stroke="#5DADE2" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.2"/>
+  <path d="M850 350l-18-36" stroke="#5DADE2" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.2"/>
+  <path d="M770 290l-14-28" stroke="#5DADE2" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.15"/>
+  <!-- Ground reflection -->
+  <path d="M280 620h640" stroke="#E2E8F0" stroke-width="1.5"/>
+  <path d="M450 640h300" stroke="#1B4F72" stroke-width="1" stroke-opacity="0.15"/>
+</svg>

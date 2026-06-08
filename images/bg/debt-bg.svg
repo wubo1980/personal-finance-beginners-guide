@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none">
+  <defs>
+    <linearGradient id="d1" x1="200" y1="150" x2="1000" y2="650">
+      <stop stop-color="#F39C12" stop-opacity="0.7"/>
+      <stop offset="0.5" stop-color="#1B4F72" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#27AE60" stop-opacity="0.4"/>
+    </linearGradient>
+  </defs>
+  <!-- Tangled knot (left side) - representing debt -->
+  <path d="M280 340C250 280 300 230 360 260C420 290 400 360 350 390C300 420 240 380 260 330C280 290 330 280 370 310" stroke="url(#d1)" stroke-width="3" stroke-linecap="round"/>
+  <!-- Middle section - knot beginning to loosen -->
+  <path d="M370 310C420 280 460 300 480 340C500 380 460 420 420 400" stroke="url(#d1)" stroke-width="3" stroke-linecap="round"/>
+  <!-- Right side - flowing free lines (debt free) -->
+  <path d="M480 340C520 310 560 280 620 300C680 320 740 280 800 260C860 240 900 280 920 300" stroke="url(#d1)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M560 280C600 260 650 240 700 250C750 260 780 240 820 230" stroke="url(#d1)" stroke-width="2" stroke-linecap="round" stroke-opacity="0.5"/>
+  <path d="M650 300C690 290 730 270 770 280C810 290 840 270 870 260" stroke="url(#d1)" stroke-width="2" stroke-linecap="round" stroke-opacity="0.3"/>
+  <!-- Small free-moving particles -->
+  <circle cx="820" cy="230" r="4" fill="#27AE60" fill-opacity="0.3"/>
+  <circle cx="870" cy="260" r="3" fill="#F39C12" fill-opacity="0.25"/>
+  <circle cx="920" cy="300" r="4" fill="#27AE60" fill-opacity="0.2"/>
+  <!-- Bottom line -->
+  <path d="M180 620h840" stroke="#E2E8F0" stroke-width="1.5"/>
+</svg>

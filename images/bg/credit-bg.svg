@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none">
+  <defs>
+    <linearGradient id="c1" x1="300" y1="150" x2="900" y2="550">
+      <stop stop-color="#E74C3C" stop-opacity="0.4"/>
+      <stop offset="0.45" stop-color="#F39C12" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#27AE60" stop-opacity="0.6"/>
+    </linearGradient>
+  </defs>
+  <!-- Elegant arc gauge - outer ring -->
+  <path d="M280 420C280 240 420 160 600 160C780 160 920 240 920 420" stroke="url(#c1)" stroke-width="4" stroke-linecap="round"/>
+  <!-- Inner ring -->
+  <path d="M320 420C320 270 440 200 600 200C760 200 880 270 880 420" stroke="url(#c1)" stroke-width="2" stroke-dasharray="6 8"/>
+  <!-- Needle -->
+  <path d="M600 290L480 420" stroke="#1B4F72" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="600" cy="290" r="12" stroke="#1B4F72" stroke-width="3"/>
+  <circle cx="600" cy="290" r="5" fill="#1B4F72" fill-opacity="0.6"/>
+  <!-- Zone markers -->
+  <path d="M310 320l-15-8" stroke="#E74C3C" stroke-width="2" stroke-opacity="0.4"/>
+  <path d="M490 180l-8-14" stroke="#F39C12" stroke-width="2" stroke-opacity="0.4"/>
+  <path d="M710 180l8-14" stroke="#27AE60" stroke-width="2" stroke-opacity="0.4"/>
+  <!-- Small decorative circles -->
+  <circle cx="310" cy="320" r="3" fill="#E74C3C" fill-opacity="0.3"/>
+  <circle cx="490" cy="180" r="3" fill="#F39C12" fill-opacity="0.3"/>
+  <circle cx="710" cy="180" r="3" fill="#27AE60" fill-opacity="0.3"/>
+  <!-- Bottom line -->
+  <path d="M180 620h840" stroke="#E2E8F0" stroke-width="1.5"/>
+</svg>

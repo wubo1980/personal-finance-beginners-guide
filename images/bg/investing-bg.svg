@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none">
+  <defs>
+    <linearGradient id="i1" x1="200" y1="400" x2="1000" y2="150">
+      <stop stop-color="#27AE60" stop-opacity="0.6"/>
+      <stop offset="0.5" stop-color="#1B4F72" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#F39C12" stop-opacity="0.3"/>
+    </linearGradient>
+  </defs>
+  <!-- Elegant stair-step growth -->
+  <path d="M320 520L320 460L400 460" stroke="url(#i1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M400 460L400 390L490 390" stroke="url(#i1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M490 390L490 310L600 310" stroke="url(#i1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M600 310L600 220L730 220" stroke="url(#i1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M730 220L730 140L880 140" stroke="url(#i1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Aspiring curve reaching higher -->
+  <path d="M320 520C480 500 600 400 730 220" stroke="url(#i1)" stroke-width="2" stroke-dasharray="6 8" stroke-linecap="round"/>
+  <path d="M600 310C700 280 800 200 880 140" stroke="url(#i1)" stroke-width="2" stroke-dasharray="4 6" stroke-linecap="round"/>
+  <!-- Small circle markers at each step -->
+  <circle cx="320" cy="460" r="5" fill="#27AE60" fill-opacity="0.3"/>
+  <circle cx="400" cy="390" r="5" fill="#27AE60" fill-opacity="0.35"/>
+  <circle cx="490" cy="310" r="5" fill="#F39C12" fill-opacity="0.3"/>
+  <circle cx="600" cy="220" r="5" fill="#F39C12" fill-opacity="0.35"/>
+  <circle cx="730" cy="140" r="5" fill="#27AE60" fill-opacity="0.4"/>
+  <circle cx="880" cy="140" r="8" fill="#27AE60" fill-opacity="0.2"/>
+  <!-- Bottom line -->
+  <path d="M180 620h840" stroke="#E2E8F0" stroke-width="1.5"/>
+</svg>

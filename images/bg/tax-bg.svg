@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none">
+  <defs>
+    <linearGradient id="t1" x1="300" y1="200" x2="900" y2="600">
+      <stop stop-color="#1B4F72" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#718096" stop-opacity="0.3"/>
+    </linearGradient>
+  </defs>
+  <!-- Stacked document shapes -->
+  <rect x="350" y="260" width="500" height="300" rx="8" stroke="url(#t1)" stroke-width="3"/>
+  <rect x="330" y="280" width="500" height="300" rx="8" stroke="url(#t1)" stroke-width="2"/>
+  <rect x="310" y="300" width="500" height="300" rx="8" stroke="url(#t1)" stroke-width="2"/>
+  <!-- Document lines -->
+  <line x1="400" y1="330" x2="740" y2="330" stroke="url(#t1)" stroke-width="2" stroke-opacity="0.4"/>
+  <line x1="400" y1="360" x2="700" y2="360" stroke="url(#t1)" stroke-width="2" stroke-opacity="0.3"/>
+  <line x1="400" y1="390" x2="760" y2="390" stroke="url(#t1)" stroke-width="2" stroke-opacity="0.3"/>
+  <line x1="400" y1="420" x2="680" y2="420" stroke="url(#t1)" stroke-width="2" stroke-opacity="0.25"/>
+  <line x1="400" y1="450" x2="720" y2="450" stroke="url(#t1)" stroke-width="2" stroke-opacity="0.2"/>
+  <!-- Calculator icon abstraction -->
+  <circle cx="260" cy="350" r="6" stroke="#1B4F72" stroke-width="2" stroke-opacity="0.2"/>
+  <circle cx="260" cy="380" r="6" stroke="#1B4F72" stroke-width="2" stroke-opacity="0.2"/>
+  <circle cx="260" cy="410" r="6" stroke="#1B4F72" stroke-width="2" stroke-opacity="0.2"/>
+  <line x1="254" y1="350" x2="266" y2="350" stroke="#1B4F72" stroke-width="1.5" stroke-opacity="0.2"/>
+  <line x1="254" y1="380" x2="266" y2="380" stroke="#1B4F72" stroke-width="1.5" stroke-opacity="0.2"/>
+  <line x1="254" y1="410" x2="266" y2="410" stroke="#1B4F72" stroke-width="1.5" stroke-opacity="0.2"/>
+  <!-- Bottom line -->
+  <path d="M180 650h840" stroke="#E2E8F0" stroke-width="1.5"/>
+</svg>

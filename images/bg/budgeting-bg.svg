@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none">
+  <defs>
+    <linearGradient id="b1" x1="300" y1="200" x2="900" y2="600">
+      <stop stop-color="#1B4F72" stop-opacity="0.7"/>
+      <stop offset="0.5" stop-color="#27AE60" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#F39C12" stop-opacity="0.3"/>
+    </linearGradient>
+  </defs>
+  <!-- Flowing ribbon arcs representing budget categories -->
+  <path d="M460 420C420 350 380 300 340 280C300 260 260 280 240 320C220 360 240 400 280 420C320 440 380 430 420 450" stroke="url(#b1)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M480 430C440 360 400 310 360 290C320 270 280 290 260 330C240 370 260 410 300 430" stroke="url(#b1)" stroke-width="3" stroke-linecap="round" stroke-dasharray="4 6"/>
+  <path d="M500 440C460 370 420 320 380 300" stroke="#27AE60" stroke-width="5" stroke-linecap="round" stroke-opacity="0.4"/>
+  <!-- Larger framing arc -->
+  <path d="M200 550C200 300 400 150 600 150C800 150 1000 300 1000 550" stroke="url(#b1)" stroke-width="2" stroke-dasharray="8 10"/>
+  <!-- Percentage markers as subtle dots -->
+  <circle cx="340" cy="300" r="5" fill="#27AE60" fill-opacity="0.3"/>
+  <circle cx="600" cy="180" r="5" fill="#1B4F72" fill-opacity="0.25"/>
+  <circle cx="860" cy="300" r="5" fill="#F39C12" fill-opacity="0.3"/>
+  <!-- Bottom balance line -->
+  <path d="M180 620h840" stroke="#E2E8F0" stroke-width="1.5"/>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none">
+  <defs>
+    <linearGradient id="s1" x1="300" y1="200" x2="600" y2="600">
+      <stop stop-color="#27AE60" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#1B4F72" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="s2" x1="700" y1="180" x2="1000" y2="600">
+      <stop stop-color="#F39C12" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#27AE60" stop-opacity="0.3"/>
+    </linearGradient>
+  </defs>
+  <!-- Left tree - sturdy savings (shorter, wider canopy) -->
+  <path d="M300 680L300 420" stroke="url(#s1)" stroke-width="5" stroke-linecap="round"/>
+  <path d="M300 420C260 400 220 380 200 350C170 310 190 260 240 250C260 245 280 250 300 270" stroke="url(#s1)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M300 420C300 400 320 370 350 350C380 330 410 340 420 370C430 400 400 430 300 440" stroke="url(#s1)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M240 250C210 220 200 180 230 160C260 140 290 160 300 190" stroke="url(#s1)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M350 350C380 320 410 300 430 310C450 320 440 350 420 370" stroke="url(#s1)" stroke-width="3" stroke-linecap="round"/>
+  <!-- Right tree - growing investment (taller, reaching upward) -->
+  <path d="M780 680L780 300" stroke="url(#s2)" stroke-width="6" stroke-linecap="round"/>
+  <path d="M780 300C720 280 650 260 630 220C610 180 640 130 680 120C710 112 740 130 780 160" stroke="url(#s2)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M780 300C800 280 840 260 870 240C900 220 920 240 920 270C920 300 890 320 780 330" stroke="url(#s2)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M680 120C660 90 670 60 700 50C730 40 750 60 780 90" stroke="url(#s2)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M870 240C900 210 930 200 950 220C970 240 950 260 920 270" stroke="url(#s2)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M780 160C790 130 810 110 820 100" stroke="url(#s2)" stroke-width="2" stroke-linecap="round"/>
+  <!-- Growth arrow between trees -->
+  <path d="M540 480l40-30" stroke="#27AE60" stroke-width="2" stroke-opacity="0.3" stroke-linecap="round"/>
+  <path d="M540 480l40 30" stroke="#27AE60" stroke-width="2" stroke-opacity="0.3" stroke-linecap="round"/>
+  <!-- Ground -->
+  <path d="M180 680h840" stroke="#E2E8F0" stroke-width="1.5"/>
+</svg>

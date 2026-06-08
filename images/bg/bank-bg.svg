@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none">
+  <defs>
+    <linearGradient id="bk1" x1="200" y1="200" x2="500" y2="600">
+      <stop stop-color="#1B4F72" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#5DADE2" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="bk2" x1="500" y1="200" x2="800" y2="600">
+      <stop stop-color="#27AE60" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#1B4F72" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="bk3" x1="750" y1="200" x2="1050" y2="600">
+      <stop stop-color="#F39C12" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#1B4F72" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+  <!-- Jar 1 - wide, stable (checking account) -->
+  <path d="M240 300C240 280 260 260 290 260L350 260C380 260 400 280 400 300L400 540C400 570 380 580 350 580L290 580C260 580 240 570 240 540Z" stroke="url(#bk1)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M280 300L360 300" stroke="url(#bk1)" stroke-width="8" stroke-linecap="round"/>
+  <!-- Jar 2 - tall, slender (savings account) -->
+  <path d="M530 220C530 200 550 180 580 180L660 180C690 180 710 200 710 220L710 540C710 570 690 580 660 580L580 580C550 580 530 570 530 540Z" stroke="url(#bk2)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M570 220L670 220" stroke="url(#bk2)" stroke-width="8" stroke-linecap="round"/>
+  <!-- jar 2 money level -->
+  <path d="M540 380L700 380" stroke="#27AE60" stroke-width="2" stroke-opacity="0.3"/>
+  <path d="M540 320L700 320" stroke="#27AE60" stroke-width="2" stroke-opacity="0.2"/>
+  <!-- Jar 3 - elegant bottle (investment account) -->
+  <path d="M850 200C850 180 865 160 895 160L955 160C985 160 1000 180 1000 200L1000 540C1000 570 985 580 955 580L895 580C865 580 850 570 850 540Z" stroke="url(#bk3)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M890 200L960 200" stroke="url(#bk3)" stroke-width="8" stroke-linecap="round"/>
+  <!-- Growth line on jar 3 -->
+  <path d="M860 480C880 460 900 440 920 380C940 320 960 300 990 280" stroke="#F39C12" stroke-width="2" stroke-linecap="round" stroke-opacity="0.3"/>
+  <path d="M860 430C880 410 900 390 920 340" stroke="#F39C12" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.2" stroke-dasharray="4 4"/>
+  <!-- Bottom line -->
+  <path d="M180 640h840" stroke="#E2E8F0" stroke-width="1.5"/>
+</svg>

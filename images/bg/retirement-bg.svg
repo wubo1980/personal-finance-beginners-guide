@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none">
+  <defs>
+    <linearGradient id="r1" x1="200" y1="300" x2="1000" y2="600">
+      <stop stop-color="#F39C12" stop-opacity="0.6"/>
+      <stop offset="0.6" stop-color="#1B4F72" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#5DADE2" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+  <!-- Horizon line -->
+  <path d="M80 450c160-20 320-30 480-10c160 20 320 10 480-10" stroke="url(#r1)" stroke-width="3" stroke-linecap="round"/>
+  <!-- Setting sun / moon -->
+  <circle cx="780" cy="240" r="60" stroke="#F39C12" stroke-width="2" stroke-opacity="0.3"/>
+  <circle cx="780" cy="240" r="45" stroke="#F39C12" stroke-width="1.5" stroke-opacity="0.2"/>
+  <!-- Path leading toward horizon -->
+  <path d="M340 620C400 580 450 540 500 500C550 460 600 440 660 420" stroke="url(#r1)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M340 620C370 590 410 550 460 510" stroke="url(#r1)" stroke-width="2" stroke-dasharray="6 8" stroke-linecap="round"/>
+  <!-- Distant mountains -->
+  <path d="M120 430C180 350 260 380 320 430" stroke="url(#r1)" stroke-width="2" stroke-linecap="round" stroke-opacity="0.3"/>
+  <path d="M800 430C860 370 920 360 980 410C1020 440 1060 430 1100 420" stroke="url(#r1)" stroke-width="2" stroke-linecap="round" stroke-opacity="0.25"/>
+  <!-- Small stars -->
+  <circle cx="280" cy="180" r="2" fill="#F39C12" fill-opacity="0.3"/>
+  <circle cx="450" cy="150" r="1.5" fill="#F39C12" fill-opacity="0.2"/>
+  <circle cx="580" cy="200" r="2" fill="#1B4F72" fill-opacity="0.25"/>
+  <!-- Path start marker -->
+  <circle cx="340" cy="620" r="5" fill="#F39C12" fill-opacity="0.3"/>
+</svg>

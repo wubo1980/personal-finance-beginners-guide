@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none">
+  <defs>
+    <linearGradient id="is1" x1="300" y1="150" x2="900" y2="650">
+      <stop stop-color="#1B4F72" stop-opacity="0.6"/>
+      <stop offset="0.5" stop-color="#27AE60" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#5DADE2" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+  <!-- Shield - main form -->
+  <path d="M600 180C600 180 420 240 320 320C320 320 300 430 320 510C340 590 480 640 600 660C720 640 860 590 880 510C900 430 880 320 880 320C780 240 600 180 600 180Z" stroke="url(#is1)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Shield inner line -->
+  <path d="M600 220C600 220 450 270 360 340C360 340 340 430 360 500C380 570 490 610 600 630C710 610 820 570 840 500C860 430 840 340 840 340C750 270 600 220 600 220Z" stroke="url(#is1)" stroke-width="1.5" stroke-dasharray="6 8"/>
+  <!-- Checkmark inside -->
+  <path d="M520 440l50 50 110-110" stroke="#27AE60" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.5"/>
+  <!-- Surrounding protection rings -->
+  <circle cx="600" cy="420" r="140" stroke="#1B4F72" stroke-width="1" stroke-opacity="0.12"/>
+  <circle cx="600" cy="420" r="180" stroke="#F39C12" stroke-width="1" stroke-opacity="0.08"/>
+  <!-- Small decorative icons around shield -->
+  <circle cx="300" cy="320" r="4" stroke="#27AE60" stroke-width="1.5" stroke-opacity="0.25"/>
+  <circle cx="900" cy="320" r="4" stroke="#27AE60" stroke-width="1.5" stroke-opacity="0.25"/>
+  <circle cx="420" cy="580" r="4" stroke="#1B4F72" stroke-width="1.5" stroke-opacity="0.2"/>
+  <circle cx="780" cy="580" r="4" stroke="#1B4F72" stroke-width="1.5" stroke-opacity="0.2"/>
+  <!-- Bottom line -->
+  <path d="M180 650h840" stroke="#E2E8F0" stroke-width="1.5"/>
+</svg>
